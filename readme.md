@@ -1,7 +1,9 @@
 ## Plasmids
+Building an application with Spring MVC!
 
 ### Description
 Fill this out
 
 ### Getting started
-How does somebody run this?
+* Netbeans IDE 8.2 (with Java web stuff selected)
+* Integrated tomcat  

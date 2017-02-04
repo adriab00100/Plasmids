@@ -1,9 +1,10 @@
 <%@tag description="Plasmids site layout" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
     <head>
         <title>${pageTitle} - Plasmids</title>
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel="stylesheet">
-        <link href="<c:url value='/styles/site.css' />" rel="stylesheet">
+        <link href="<c:url value="/styles/site.css" />" rel="stylesheet">
     </head>
     <body>
         <div class='container'>
