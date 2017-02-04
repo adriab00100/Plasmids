@@ -6,6 +6,8 @@ function DrawingContext(canvas) {
 
     this.draw = function () {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        var ring = new VectorRing(this.canvas.width /2, this.canvas.height/2, 200);
+        ring.draw(this.context);
     };
 
     this.trackMouse = function (e) {
