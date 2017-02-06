@@ -1,6 +1,6 @@
-package com.plasmids.model;
+package com.adriab.plasmids.model;
 
-class Plasmid {
+public class Plasmid {
     private final String sequence;
     public String getSequence() {
         return sequence;

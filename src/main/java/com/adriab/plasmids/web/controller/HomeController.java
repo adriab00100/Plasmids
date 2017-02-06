@@ -1,4 +1,4 @@
-package com.plasmids.web.controller;
+package com.adriab.plasmids.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
